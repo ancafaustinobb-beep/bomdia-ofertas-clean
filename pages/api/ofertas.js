@@ -15,11 +15,14 @@ export default function handler(req, res) {
       "discount": "12%"
     },
     {
-      "title": "Notebook VAIO FE15, Intel Core i7 12th, 16GB 512GB SSD, Tela 15,6 Full HD Antirreflexo, Linux - Cinza Grafite",
-      "image": "https://m.media-amazon.com/images/I/71wnc1MahXL._AC_SX522_.jpg",
-      "link": "https://amzn.to/46suSSe",
-      "price": "R$ 5.499,00",
-      "discount": "15%"
+      {
+  "title": "Notebook VAIO FE15, Intel Core i7 12th, 16GB 512GB SSD, Tela 15,6 Full HD Antirreflexo, Linux - Cinza Grafite",
+  "image": "https://m.media-amazon.com/images/I/71wnc1MahXL._AC_SX522_.jpg",
+  "link": "https://amzn.to/46suSSe",
+  "price": "R$ 5.499,00",
+  "discount": "15%"
+}
+
     }
   ];
 
