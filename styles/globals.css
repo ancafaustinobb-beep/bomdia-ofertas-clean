@@ -1,8 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Ajustes globais */
+/* styles/globals.css */
 body {
-  @apply bg-gray-100 text-gray-900;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
