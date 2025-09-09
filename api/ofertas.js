@@ -1,4 +1,5 @@
 // pages/api/ofertas.js
+
 export default function handler(req, res) {
   const ofertas = [
     {
@@ -35,6 +36,34 @@ export default function handler(req, res) {
       link: "https://amzn.to/46fghij",
       price: "R$ 4.199,00",
       discount: "10%"
+    },
+    {
+      title: "Smartwatch Apple Watch Series 8",
+      image: "https://m.media-amazon.com/images/I/61j8dYl3VML._AC_SX522_.jpg",
+      link: "https://amzn.to/46ijklm",
+      price: "R$ 2.999,00",
+      discount: "12%"
+    },
+    {
+      title: "Tablet Samsung Galaxy Tab S8",
+      image: "https://m.media-amazon.com/images/I/71n5kF+qTWL._AC_SX522_.jpg",
+      link: "https://amzn.to/46nopqr",
+      price: "R$ 3.299,00",
+      discount: "10%"
+    },
+    {
+      title: "Câmera Canon EOS Rebel T7",
+      image: "https://m.media-amazon.com/images/I/81k2VZ9eNWL._AC_SX679_.jpg",
+      link: "https://amzn.to/46stuvw",
+      price: "R$ 4.499,00",
+      discount: "9%"
+    },
+    {
+      title: "Caixa de Som JBL Flip 6",
+      image: "https://m.media-amazon.com/images/I/71F5z+WdLWL._AC_SX522_.jpg",
+      link: "https://amzn.to/46xyzab",
+      price: "R$ 599,00",
+      discount: "15%"
     }
   ];
 
