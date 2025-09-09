@@ -1,3 +1,5 @@
+// pages/api/ofertas.js
+
 export default function handler(req, res) {
   const ofertas = [
     {
@@ -20,6 +22,20 @@ export default function handler(req, res) {
       "link": "https://amzn.to/46suSSe",
       "price": "R$ 5.499,00",
       "discount": "15%"
+    },
+    {
+      "title": "Fone de Ouvido Bluetooth Sony WH-1000XM5",
+      "image": "https://m.media-amazon.com/images/I/61xXU1w5+XL._AC_SX679_.jpg",
+      "link": "https://amzn.to/46abcde",
+      "price": "R$ 1.799,00",
+      "discount": "8%"
+    },
+    {
+      "title": "Smart TV Samsung 55\" QLED 4K",
+      "image": "https://m.media-amazon.com/images/I/81Tv+Q3s+XL._AC_SX679_.jpg",
+      "link": "https://amzn.to/46fghij",
+      "price": "R$ 4.199,00",
+      "discount": "10%"
     }
   ];
 
